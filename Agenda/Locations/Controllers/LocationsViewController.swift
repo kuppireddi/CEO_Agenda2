@@ -15,7 +15,7 @@ class LocationsViewController: UIViewController {
     @IBOutlet weak var segment: UISegmentedControl!
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let locationImages = ["Chennai", "Pune", "Hyderabad"]
+    let locationImages = ["Delhi", "Agra", "Chennai"]
     let aboutUsImages = ["TATA", "TCS"]
     
     //MARK: Life Cycle Methods
