@@ -11,6 +11,8 @@ import EventKit
 
 class ScheduleDetailViewController: UIViewController {
     
+    @IBOutlet weak var presenterLabel: UILabel!
+    @IBOutlet weak var viewTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var descriptionDetails: UILabel!
     @IBOutlet weak var cityLocationDetails: UILabel!
@@ -85,7 +87,17 @@ class ScheduleDetailViewController: UIViewController {
         //cityLocationDetails.text = selectedDateSchedule?.place
         timeDetails.text = scheduleData?.time
         locationDetails.text = scheduleData?.place
-        presenterDetails.text = scheduleData?.name
+        if scheduleData?.name == ""{
+            viewTopConstraint.constant = 0
+            presenterDetails.isHidden = true
+            presenterLabel.isHidden = true
+        } else {
+            presenterDetails.text = scheduleData?.name
+            viewTopConstraint.constant = 76
+            presenterDetails.isHidden = false
+            presenterLabel.isHidden = false
+        }
+        
         descriptionDetails.text = scheduleData?.desc
 //        eventLocationDetails.text = scheduleData?.place
     }
