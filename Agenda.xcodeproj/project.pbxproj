@@ -38,6 +38,7 @@
 		20643A2C22B39EE6005582E2 /* lakshman.png in Resources */ = {isa = PBXBuildFile; fileRef = 20643A2822B39EE6005582E2 /* lakshman.png */; };
 		20643A2D22B39EE6005582E2 /* prasad.png in Resources */ = {isa = PBXBuildFile; fileRef = 20643A2922B39EE6005582E2 /* prasad.png */; };
 		20643A2E22B39EE6005582E2 /* shital.png in Resources */ = {isa = PBXBuildFile; fileRef = 20643A2A22B39EE6005582E2 /* shital.png */; };
+		20B39AC422CD020100F8EF71 /* Sourabh.png in Resources */ = {isa = PBXBuildFile; fileRef = 20B39AC322CD020100F8EF71 /* Sourabh.png */; };
 		20FA581822C1C68A00799B24 /* Agra.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 20FA581722C1C68A00799B24 /* Agra.pdf */; };
 		20FA581A22C1CA0800799B24 /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 20FA581922C1CA0800799B24 /* Black.png */; };
 		20FA581E22C1D86500799B24 /* Delhi.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 20FA581D22C1D86500799B24 /* Delhi.pdf */; };
@@ -133,6 +134,7 @@
 		20643A2822B39EE6005582E2 /* lakshman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lakshman.png; sourceTree = "<group>"; };
 		20643A2922B39EE6005582E2 /* prasad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prasad.png; sourceTree = "<group>"; };
 		20643A2A22B39EE6005582E2 /* shital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shital.png; sourceTree = "<group>"; };
+		20B39AC322CD020100F8EF71 /* Sourabh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sourabh.png; sourceTree = "<group>"; };
 		20FA581722C1C68A00799B24 /* Agra.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Agra.pdf; sourceTree = "<group>"; };
 		20FA581922C1CA0800799B24 /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
 		20FA581D22C1D86500799B24 /* Delhi.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Delhi.pdf; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				20643A2722B39EE6005582E2 /* abhay.png */,
+				20B39AC322CD020100F8EF71 /* Sourabh.png */,
 				20643A2822B39EE6005582E2 /* lakshman.png */,
 				20643A2922B39EE6005582E2 /* prasad.png */,
 				20643A2A22B39EE6005582E2 /* shital.png */,
@@ -669,6 +672,7 @@
 				47AB990D22979EF600A59799 /* LaunchScreen.storyboard in Resources */,
 				2040510822B26CF700F9054D /* VijayMallya.png in Resources */,
 				204050DE22B17C7000F9054D /* SreejitRoy.png in Resources */,
+				20B39AC422CD020100F8EF71 /* Sourabh.png in Resources */,
 				47C5340F22B20E2700E68C6F /* README.txt in Resources */,
 				47051D1C229F602400D9FACF /* Contacts.storyboard in Resources */,
 				47AEB08122B29E44005086A3 /* Itinerary_MILLER_PAUL_YKSOHF_domestic.pdf in Resources */,
