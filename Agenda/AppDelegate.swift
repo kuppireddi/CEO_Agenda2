@@ -19,12 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UIApplication.shared.statusBarStyle = .lightContent
         
-        eventStore.requestAccess(to: EKEntityType.reminder, completion:
-            {(granted, error) in
-                if !granted {
-                    print("Access to store not granted")
-                }
-        })
         return true
     }
     

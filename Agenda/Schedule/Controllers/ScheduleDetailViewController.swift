@@ -124,6 +124,7 @@ class ScheduleDetailViewController: UIViewController {
     }
     
     @IBAction func closeDetailsClicked(_ sender: Any) {
+        scrollView.setContentOffset(.zero, animated: true)
         hideDetailsClosure?()
     }
     

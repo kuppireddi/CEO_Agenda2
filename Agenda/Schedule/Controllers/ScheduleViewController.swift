@@ -88,6 +88,7 @@ class ScheduleViewController: UIViewController {
     
     func hideDetailsView() {
         if !scheduleDetailsView.isHidden {
+            scheduleDetailViewController?.scrollView.setContentOffset(.zero, animated: true)
             scheduleDetailsView.fadeOut()
         }
     }

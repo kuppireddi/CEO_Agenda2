@@ -39,6 +39,7 @@ class LocationsViewController: UIViewController {
     }
     
     @IBAction func segmentValueChanged(_ sender: Any) {
+        collectionView.scrollToItem(at: IndexPath(row: 0, section: 0), at: .centeredHorizontally, animated: false)
         collectionView.reloadData()
     }
 }

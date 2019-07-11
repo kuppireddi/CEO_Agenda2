@@ -56,6 +56,22 @@ struct ExecutiveElement: Codable {
     let largeImg: String?
 }
 
+//Contact Model
+
+struct ContactElement: Codable {
+    let company: String
+    let nameArray, phoneArray, callNumberArray: [String]
+    
+    enum CodingKeys: String, CodingKey {
+        case company
+        case nameArray = "NameArray"
+        case phoneArray = "PhoneArray"
+        case callNumberArray = "CallNumberArray"
+    }
+}
+
+typealias Contact = [ContactElement]
+
 func newJSONDecoder() -> JSONDecoder {
     let decoder = JSONDecoder()
     if #available(iOS 10.0, OSX 10.12, tvOS 10.0, watchOS 3.0, *) {
@@ -90,6 +106,10 @@ extension URLSession {
     }
     
     func personTask(with url: URL, completionHandler: @escaping (Executive?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
+        return self.codableTask(with: url, completionHandler: completionHandler)
+    }
+    
+    func callTask(with url: URL, completionHandler: @escaping (Contact?, URLResponse?, Error?) -> Void) -> URLSessionDataTask {
         return self.codableTask(with: url, completionHandler: completionHandler)
     }
 }
